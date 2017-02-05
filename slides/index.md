@@ -1,10 +1,4 @@
 
-# fac tp
+# TP de Test
 
-From the terminal, pop in:
-
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+Master 1 Gil
