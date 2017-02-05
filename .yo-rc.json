@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "fac tp",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "RudyBaer",
+    "githubRepository": "fac-tp-test-2017"
+  }
+}
