@@ -1,1 +1,20 @@
-["index.md"]
+[
+    "index.md",
+    "presentation.md",
+    [
+    "tp1.md",
+    "les-types-de-tests.md",
+    "les-tests-d-integration.md",
+    "les-tests-de-composants.md",
+    "les-tests-unitaires.md",
+    "les-tests-unitaires-2.md",
+    "pourquoi-dois-je-faire-des-tests.md",
+    "tests-unitaires-composants.md",
+    "tests-d-integration.md",
+    "ecrire-des-tests-prend-du-temps.md",
+    "temps-d-ecriture-des-tests.md",
+    "pour-resumer-1.md",
+    "pour-resumer-2.md",
+    "a-retenir.md"
+    ]
+]
