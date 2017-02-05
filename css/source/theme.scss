@@ -1,53 +1,93 @@
 /**
- * Black theme for reveal.js. This is the opposite of the 'white' theme.
- *
- * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ * Bear theme for reveal.js.
+ * By BearStudio
  */
 
- // This file has been copied over from
- // ../../bower_components/reveal.js/css/theme/source/black.scss
-
- // See ../../bower_components/reveal.js/css/theme/README.md
- // for further explanations on how to create a custom reveal.js theme.
+// See ../../bower_components/reveal.js/css/theme/README.md
+// for further explanations on how to create a custom reveal.js theme.
 
 // Default mixins and settings -----------------
 @import "../../bower_components/reveal.js/css/theme/template/mixins";
 @import "../../bower_components/reveal.js/css/theme/template/settings";
 // ---------------------------------------------
 
-
 // Include theme-specific fonts
-@import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
-
+@import url(../resources/font/blogger-sans/BloggerSans.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 // Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
-$backgroundColor: #222;
+// Background of the presentation
 
-$mainColor: #fff;
-$headingColor: #fff;
+$backgroundColor: #222222;
 
-$mainFontSize: 38px;
-$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingTextShadow: none;
+// Primary/body text
+$mainFont: 'Montserrat', sans-serif;
+$mainFontSize: 36px;
+$mainColor: #eee;
+
+// Vertical spacing between blocks of text
+$blockMargin: 20px;
+
+// Headings
+$headingMargin: 0 0 $blockMargin 0;
+$headingFont: 'BloggerSans', sans-serif;
+$headingColor: #9c8e65;
+$headingLineHeight: 1.2;
 $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;
-$headingFontWeight: 600;
-$linkColor: #42affa;
-$linkColorHover: lighten( $linkColor, 15% );
-$selectionBackgroundColor: lighten( $linkColor, 25% );
+$headingTextShadow: none;
+$headingFontWeight: bold;
+$heading1TextShadow: $headingTextShadow;
 
-$heading1Size: 2.5em;
-$heading2Size: 1.6em;
-$heading3Size: 1.3em;
-$heading4Size: 1.0em;
+$heading1Size: 3.77em;
+$heading2Size: 2.5em;
+$heading3Size: 1.55em;
+$heading4Size: 1.00em;
 
-section.has-light-background {
-	&, h1, h2, h3, h4, h5, h6 {
-		color: #222;
-	}
+// Links and actions
+$linkColor: #9c8e65;
+$linkColorHover: darken( $linkColor, 10% );
+
+// Text selection
+$selectionBackgroundColor: lighten( $linkColor, 10% );
+$selectionColor: #333;
+
+// Generates the presentation background, can be overridden
+// to return a background image or gradient
+@mixin bodyBackground() {
+    background: $backgroundColor;
 }
+
+// Custom classes
+
+.reveal li {list-style-type: none;}
+.reveal li:before {
+    content: "› "; /* on affiche une chaîne de caractère */
+    color:#9c8e65;
+}
+
+.reveal td h1,
+.reveal td h2,
+.reveal td h3,
+.reveal td h4,
+.reveal td h5,
+.reveal td h6 {
+    margin:0;
+}
+
+.reveal section img.plain {
+    border: 0;
+    background: transparent;
+    box-shadow: none; }
+
+.reveal section img.circle {
+    border-radius:50%; }
 
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
+
+.reveal pre code{
+    padding:10px 15px;
+    //font-size:26px;
+}
