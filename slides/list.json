@@ -18,17 +18,32 @@
         "a-retenir.md"
     ],
     [
-    "tp1-les-tests-en-java.md",
-    "2-frameworks.md",
-    "creer-son-premier-test-en-java.md",
-    "pre-requis.md",
-    "comprendre-ce-gestionnaire-de-dependances-maven.md",
-    "qu-est-ce-que-maven.md",
-    "qu-est-ce-que-maven-2.md",
-    "qu-est-ce-que-maven-3.md",
-    "qu-est-ce-que-maven-4.md",
-    "mon-premier-test-java.md",
-    "pour-resumer.md",
-    "a-vous-de-jouer.md"
+        "tp1-les-tests-en-java.md",
+        "2-frameworks.md",
+        "creer-son-premier-test-en-java.md",
+        "pre-requis.md",
+        "comprendre-ce-gestionnaire-de-dependances-maven.md",
+        "qu-est-ce-que-maven.md",
+        "qu-est-ce-que-maven-2.md",
+        "qu-est-ce-que-maven-3.md",
+        "qu-est-ce-que-maven-4.md",
+        "mon-premier-test-java.md",
+        "pour-resumer.md",
+        "a-vous-de-jouer.md"
+    ],
+    [
+        "tp2.md",
+        "bdd.md",
+        "bdd2.md",
+        "bdd3.md",
+        "bdd4.md",
+        "bdd5.md",
+        "bdd6.md",
+        "assertions.md",
+        "assertions2.md",
+        "assertions3.md",
+        "assertions4.md",
+        "assertions5.md",
+        "tp2ex.md"
     ]
 ]
