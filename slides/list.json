@@ -45,5 +45,16 @@
         "assertions4.md",
         "assertions5.md",
         "tp2ex.md"
+    ],
+    [
+    "tp3.md",
+    "mock.md",
+    "pourquoi-mock.md",
+    "comment-a-marche.md",
+    "mockito.md",
+    "setup-1.md",
+    "setup-2.md",
+    "setup-3.md",
+    "tp3-todo.md"
     ]
 ]
