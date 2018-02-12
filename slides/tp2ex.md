@@ -1,6 +1,6 @@
 ###  Exercices du jour :
 ```
-git checkout TP2
+git checkout tp2
 ```
 
 Rappel url :

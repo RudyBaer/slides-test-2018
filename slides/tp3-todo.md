@@ -2,6 +2,6 @@
 
 git pull
 
-git checkout TP3
+git checkout tp3
 
-https://github.com/RudyBaer/2017-tp-test.git
+https://github.com/RudyBaer/2018-tp-test.git
